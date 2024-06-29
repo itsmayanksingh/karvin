@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="main.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>KARVIN</title>
+  </head>
+  <body>
+    <!-- nav bar  -->
+    <nav class="h-[100px]">
+      <div class="w-[120px]">
+        <img src="images/logo.png"  alt="logo" />
+   
+      </div>
+      <ul >
+       
+        <li>
+          <a href="#">WHY KARVIN </a>
+        </li>
+        <li>
+          <a href="#">PRODUCTS</a>
+        </li>
+        <li>
+          <a href="#">PRODUCTS</a>
+        </li>
+        <li>
+          <a href="#">CONTACT US</a>
+        </li>
+      </ul>
+      <div class="hamburger">
+        <span class="line"></span>
+        <span class="line"></span>
+        <span class="line"></span>
+      </div>
+    </nav>
+    <div class="menubar text-black">
+      <ul>
+        <li>
+          <a href="#">OUR STORY</a>
+        </li>
+        <li>
+          <a href="#">WHY KARVIN </a>
+        </li>
+        <li>
+          <a href="#">PRODUCTS</a>
+        </li>
+        <li>
+          <a href="#">PRODUCTS</a>
+        </li>
+        <li>
+          <a href="#">CONTACT US</a>
+        </li>
+      </ul>
+    </div>
+    <script>
+      const mobileNav = document.querySelector(".hamburger");
+const navbar = document.querySelector(".menubar");
+
+const toggleNav = () => {
+  navbar.classList.toggle("active");
+  mobileNav.classList.toggle("hamburger-active");
+};
+mobileNav.addEventListener("click", () => toggleNav());
+
+    </script>
+
+    <!-- first page  -->
+
+    <div class="relative w-[100%] bg-cover bg-center h-screen" style="background-image: url('images/red_chip.png');">
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+      <div class="relative flex flex-col items-center justify-center h-full text-center text-white px-4">
+        <h1 class="text-4xl md:text-6xl font-bold">REDEFINING ENERGY</h1>
+        <p class="mt-4 text-lg md:text-2xl">Versatile Solutions For Every Application</p>
+      </div>
+    </div>
+    
+    <!-- our-bussnies -->
+    <div class="bg-background text-foreground py-12">
+      <div class="max-w-7xl mx-auto text-center">
+        <h1 class="text-6xl text-red-600  font-semibold mb-4">Our Businesses</h1>
+        <h2 class="text-2xl text-red-600  mb-2 mt-[-8px]">Our <span class="text-red-600 font-semibold">power</span>, Your <span class="text-red-600 font-semibold">confidence</span> </h2>
+        <p class="text-lg mb-8 text-gray-500">To enhance focus, Atul has placed products belonging to the 2 reporting segments, Life Science Chemicals and Performance and Other Chemicals under 9 Businesses.</p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-3  w-7xl mx-auto">
+        <div class="relative">
+          <img src="images/led-lights.jpg" alt="Aromatics" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <span class="text-white text-3xl max-w-[200px]">
+              </span>
+          </div>
+          <div class="overlay">
+            <span class="text-white text-3xl max-w-[200px]">LED Lighting
+              Commercial</span>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="images/glass.jpeg" alt="Bulk Chemicals and Intermediates" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <span class="text-white text-3xl max-w-[200px]"></span>
+          </div>
+          <div class="overlay">
+            <span class="text-white text-3xl max-w-[200px]">LED Lighting
+              Industrial</span>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="images/parts.webp" alt="Textiles" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <span class="text-white text-3xl max-w-[200px]"></span>
+          </div>
+          <div class="overlay">
+           <span class="text-white text-3xl max-w-[200px]">LED Drivers and
+            SMPS</span>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="images/chip.webp" alt="Agriculture" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <span class="text-white text-3xl max-w-[200px]"></span>
+          </div>
+          <div class="overlay">
+            <span class="text-white text-3xl max-w-[200px]">Isolation transform</span>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="images/small_battery.jpeg" alt="Pharmaceuticals" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <span class="text-white text-3xl max-w-[200px]"> </span>
+          </div>
+          <div class="overlay">
+            <span class="text-white text-3xl max-w-[200px]">Stabilizers</span>
+          </div>
+        </div>
+        <div class="relative">
+          <img src="images/bettary.jpg" alt="Energy" class="w-full h-full object-cover" />
+          <div class="absolute inset-0 bg-black bg-opacity-50 flex items-center justify-center">
+            <span class="text-white max-w-[200px] text-3xl">  </span>
+          </div>
+          <div class="overlay">
+            <span class="text-white text-3xl max-w-[200px]">UPS and battries</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  
+    <!-- why karvin -->
+    <div class="bg-background text-foreground p-8">
+      <div class="text-center mb-8">
+        <h1 class="text-6xl text-red-600 font-bold text-primary">WHY KARVIN?</h1>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+        <div class="flex flex-col md:flex-row items-center">
+          <div class="flex items-center mb-4 md:mb-0">
+              <div class="flex flex-col items-center md:items-start">
+                  <div id="years" class="text-4xl font-bold text-primary mr-2">20+</div>
+                  <h1 class="text-gray-500">YEARS</h1>
+              </div>
+              <div class="text-muted-foreground rotate-0 md:-rotate-90 md:ml-2">EXPERIENCE</div>
+          </div>
+          <div class="flex items-center mb-4 md:mb-0 md:ml-4">
+              <div class="flex flex-col items-center md:items-start">
+                  <div id="work" class="text-4xl font-bold text-primary mr-2">25+</div>
+                  <h1 class="text-gray-500">WORK</h1>
+              </div>
+              <div class="text-muted-foreground rotate-0 md:-rotate-90 md:ml-2">PARTNERS</div>
+          </div>
+          <div class="flex items-center mb-4 md:mb-0 md:ml-4">
+              <div class="flex flex-col items-center md:items-start">
+                  <div id="clients" class="text-4xl font-bold text-primary mr-2">80+</div>
+                  <h1 class="text-gray-500">HAPPY</h1>
+              </div>
+              <div class="text-muted-foreground rotate-0 md:-rotate-90 md:ml-2">CLIENTS</div>
+          </div>
+          <img src="images/tower.png" alt="tower illustration" class="hidden md:block mt-[-15%] w-20" />
+      </div>
+ 
+      
+        <div class="flex flex-col items-center">
+         
+          <div class="mb-8">
+         <h2 class="text-4xl text-red-600 text-center font-bold text-primary">OUR MISSION</h2>
+            <p class="text-muted-foreground mt-2">
+              <q class="text-2xl text-gray-600 ">To innovate and lead in LED driver technology, enhancing lighting efficiency and quality across diverse applications.</q>
+            </p>
+          </div>
+          <img src="images/led1.png" alt="light bulb illustration" class="hidden md:block md:rotate-[-90deg] md:w-[200px] md:mr-[-400px] md:mt-4">
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="mb-8">
+            <h2 class="text-4xl text-red-600 text-center font-bold text-primary">OUR VISION</h2>
+            <p class="text-muted-foreground  mt-5">
+              <q class="text-2xl text-gray-600">To be the global benchmark  in LED driver solutions,<br> driving sustainability andbr
+                 excellence in lighting technology worldwide.</q>
+                 <div>
+                  <img src="images/bulb-unscreen.gif" class="w-[200px] text-center ml-[100px]" alt="">
+                 </div>
+            </p>
+          </div>
+        </div>
+        <div class="flex flex-col items-center">
+          <div class="mb-8">
+            <h2 class="text-4xl text-red-600 text-center font-bold text-primary">BRAND PROMISE</h2>
+            <p class="text-muted-foreground mt-2">
+              <q class="text-2xl text-gray-600 ">Powering Brilliance: Your Assurance in LED Drivers and SPDs.</q>
+            </p>
+          </div>
+          <img src="images/parts.webp" alt="plug illustration" class="mt-4 w-[300px] rounded-md " />
+        </div>
+      </div>
+    </div>
+
+
+<!-- why karvin-2 page -->
+
+<div class="flex flex-col md:flex-row   rounded-lg bg-card text-card-foreground">
+  <div class="flex flex-col items-center  md:items-start md:w-1/3 p-4">
+    <img src="images/K.png" class="w-[500px] h-80" alt="Company Logo"  />
+    <ul class="text-left text-primary">
+      <li class="flex items-center mb-2">
+        <span class="text-red-600 font-bold text-5xl">K</span>
+        <span class="ml-2 text-muted-foreground text-2xl">inetic LED Solutions</span>
+      </li>
+      <li class="flex items-center mb-2">
+        <span class="text-red-600 font-bold text-5xl">A</span>
+        <span class="ml-2 text-muted-foreground text-2xl">dvanced Customization</span>
+      </li>
+      <li class="flex items-center mb-2">
+        <span class="text-red-600 font-bold text-5xl">R</span>
+        <span class="ml-2 text-muted-foreground text-2xl">evolutionary Efficiency</span>
+      </li>
+      <li class="flex items-center mb-2">
+        <span class="text-red-600 font-bold text-5xl">V</span>
+        <span class="ml-2 text-muted-foreground text-2xl">isionary Innovation</span>
+      </li>
+      <li class="flex items-center mb-2">
+        <span class="text-red-600 font-bold text-5xl">I</span>
+        <span class="ml-2 text-muted-foreground text-2xl">lluminating Technology</span>
+      </li>
+      <li class="flex items-center mb-2">
+        <span class="text-red-600 font-bold text-5xl">N</span>
+        <span class="ml-2 text-muted-foreground text-2xl">ext-Generation Drivers</span>
+      </li>
+    </ul>
+  </div>
+
+  <div class="md:w-2/3 mt-28">
+    <p class="text-center md:text-left text-secondary mb-4">
+      <img src="images/led1.png" width="250px" alt="" class="rotate-image ">
+    </p>
+    <br><br><br><br><br>
+    <p class="text-foreground max-w-[600px] text-2xl  ml-[120px] text-start  mb-8">
+      Welcome to KARVIN, where we redefine lighting possibilities with advanced LED driver solutions.  Our commitment lies in optimizing energy efficiency, reliability, and performance, empowering
+      environments with superior lighting solutions. (content to be changed)
+    </p>
+    <div class="flex justify-center md:justify-start md:ml-[320px]">
+      <img src="images/small_battery.jpeg" alt="UPS related image" class="rounded-lg max-w-full md:max-w-none" />
+    </div>
+    
+
+  </div>
+</div>
+    <!-- CONTACT US -->
+
+    <div class="bg-red-700 text-white p-8">
+      <h1 class="text-4xl font-bold text-center mb-4">CONTACT US</h1>
+      <p class="text-center mb-8">Want to get in touch? We’d love to hear from you. Here’s how you can reach us...</p>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        <div class="bg-white h-[50vh] text-black p-8 text-center">
+          <p class="font-semibold">Connect with Karvin</p>
+        </div>
+        <div class="bg-white h-[50vh]  text-black p-8 text-center">
+          <p class="font-semibold">Enquire with Karvin</p>
+        </div>
+        <div class="bg-white h-[50vh] text-black p-8 text-center">
+          <p class="font-semibold">Locate Karvin</p>
+        </div>
+      </div>
+    </div>
+   <!-- Latest Blog -->
+    <br>
+
+   <div class="p-4">
+    <div class="text-center mb-8">
+      <h1 class="text-4xl text-red-600 font-bold">Latest Blog</h1>
+      <p class="text-muted-foreground text-gray-500">RECENT BLOGS BY KARVIN</p>
+    </div>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div class="bg-card p-4 rounded-lg shadow-lg">
+        <img src="https://placehold.co/600x400" alt="Blog image placeholder" class="w-full mb-4 rounded-lg" />
+        <p class="text-muted-foreground">2nd June 2024</p>
+        <h2 class="text-xl font-bold mb-4">UPS OR INVERTOR</h2>
+        <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Read More</button>
+      </div>
+      <div class="bg-card p-4 rounded-lg shadow-lg">
+        <img src="https://placehold.co/600x400" alt="Blog image placeholder" class="w-full mb-4 rounded-lg" />
+        <p class="text-muted-foreground">4th June 2024</p>
+        <h2 class="text-xl font-bold mb-4">UPS OR INVERTOR</h2>
+        <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Read More</button>
+      </div>
+      <div class="bg-card p-4 rounded-lg shadow-lg">
+        <img src="https://placehold.co/600x400" alt="Blog image placeholder" class="w-full mb-4 rounded-lg" />
+        <p class="text-muted-foreground">6th June 2024</p>
+        <h2 class="text-xl font-bold mb-4">UPS OR INVERTOR</h2>
+        <button class="bg-red-500 text-white px-4 py-2 rounded hover:bg-red-600">Read More</button>
+      </div>
+    </div>
+  </div>
+
+
+   <!-- js -->
+    <script src="js/index.js"></script>
+  </body>
+</html>
